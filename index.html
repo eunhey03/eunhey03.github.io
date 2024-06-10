@@ -1,6 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Styled Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    hello, there?
-    DxD 2022
+    <header id="header">
+        <div id="logo">MyLogo</div>
+        <nav id="navmenu">
+            <p><a href="#main-container">Home</a></p>
+            <p><a href="#projects">Projects</a></p>
+            <p><a href="#contact">Contact</a></p>
+        </nav>
+    </header>
+
+    <div id="main-container">
+        <div id="featured-image">
+            <img src="featured-image.jpg" alt="Featured Image">
+        </div>
+        <div id="main-text">
+            <p>여기에 원하는 내용을 작성하세요.</p>
+        </div>
+    </div>
+
+    <section id="projects">
+        <div class="project-container">
+            <img src="project1.jpg" alt="Project 1">
+            <div class="project-overlay">
+                <h2 class="project-title">Project 1</h2>
+                <p class="project-description">Description of Project 1.</p>
+            </div>
+        </div>
+        <div class="project-container">
+            <img src="project2.jpg" alt="Project 2">
+            <div class="project-overlay">
+                <h2 class="project-title">Project 2</h2>
+                <p class="project-description">Description of Project 2.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="copyright">
+        &copy; 2024 My Styled Website. All rights reserved.
+    </footer>
 </body>
 </html>
